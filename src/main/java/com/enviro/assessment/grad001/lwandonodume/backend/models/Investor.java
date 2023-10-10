@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
+
 @Entity
 @Getter
 @Setter
@@ -25,6 +27,8 @@ public class Investor {
     private String emailAddress;
     @Column(name = "phone_number")
     private String phoneNumber;
+    @Column(name = "date_of_birth")
+    private LocalDate dateOfBirth;
     @Column(name = "address")
     private String address;
 
