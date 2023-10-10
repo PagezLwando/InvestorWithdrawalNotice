@@ -15,8 +15,6 @@ public class WithdrawalNotice {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
-    @Column(name = "investor_id")
-    private Long investorId;
     @Column(name = "product_id")
     private Long productId;
     @Column(name = "amount")
@@ -43,13 +41,6 @@ public class WithdrawalNotice {
         this.id = id;
     }
 
-    public Long getInvestorId() {
-        return investorId;
-    }
-
-    public void setInvestorId(Long investorId) {
-        this.investorId = investorId;
-    }
 
     public Long getProductId() {
         return productId;

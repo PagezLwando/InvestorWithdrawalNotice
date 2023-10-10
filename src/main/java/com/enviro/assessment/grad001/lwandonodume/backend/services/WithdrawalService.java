@@ -5,7 +5,7 @@ import com.enviro.assessment.grad001.lwandonodume.backend.models.WithdrawalNotic
 import java.util.List;
 
 public interface WithdrawalService {
-    WithdrawalNotice save(WithdrawalNotice withdrawalNotice);
+    WithdrawalNotice notify(WithdrawalNotice withdrawalNotice);
 
     WithdrawalNotice findById(Long id);
 
