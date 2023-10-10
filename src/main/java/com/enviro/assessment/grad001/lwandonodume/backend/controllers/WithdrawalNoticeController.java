@@ -1,6 +1,5 @@
 package com.enviro.assessment.grad001.lwandonodume.backend.controllers;
 
-import com.enviro.assessment.grad001.lwandonodume.backend.models.Product;
 import com.enviro.assessment.grad001.lwandonodume.backend.models.WithdrawalNotice;
 import com.enviro.assessment.grad001.lwandonodume.backend.services.WithdrawalService;
 import org.springframework.beans.factory.annotation.Autowired;

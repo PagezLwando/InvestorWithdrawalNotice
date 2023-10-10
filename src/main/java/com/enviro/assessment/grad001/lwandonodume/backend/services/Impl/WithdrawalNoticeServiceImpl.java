@@ -11,7 +11,6 @@ import com.enviro.assessment.grad001.lwandonodume.backend.services.InvestorServi
 import com.enviro.assessment.grad001.lwandonodume.backend.services.ProductService;
 import com.enviro.assessment.grad001.lwandonodume.backend.services.SendEmailService;
 import com.enviro.assessment.grad001.lwandonodume.backend.services.WithdrawalService;
-import jakarta.persistence.criteria.CriteriaBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -4,5 +4,5 @@ import com.enviro.assessment.grad001.lwandonodume.backend.models.SendEmail;
 
 public interface SendEmailService {
 
-    public void sendEmail(SendEmail sendEmail);
+    void sendEmail(SendEmail sendEmail);
 }
